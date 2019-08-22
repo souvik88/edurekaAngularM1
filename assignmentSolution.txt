@@ -1,0 +1,8 @@
+Assignment
+1.What is a Component? 
+
+2.Where and how are the Controllers and Models defined?
+3.What is a View and how is it defined?
+4.What is used to Bootstrap the application?
+5.What is the use of System Import?
+6.What are the Dependency Libraries/Bundles needed for an AngularJS Application? 
