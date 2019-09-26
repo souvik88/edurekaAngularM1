@@ -1,9 +1,23 @@
-Assignment
+
 1.What is a Component? 
+A: Components are the most basic building block of an UI in an Angular application. An Angular application is a tree of Angular components. Angular components are a subset of directives. Unlike directives, components always have a template and only one component can be instantiated per an element in a template.
+
+A component is made up of three parts:
+template: view and html
+class: code typescript data and methods
 
 2.Where and how are the Controllers and Models defined?
+A: 
+
 3.What is a View and how is it defined?
+A: 
+
 4.What is used to Bootstrap the application?
+A: 
+
 5.What is the use of System Import?
-6.What are the Dependency Libraries/Bundles needed for an AngularJS Application? 
+A: 
+
+6.What are the Dependency Libraries/Bundles needed for an AngularJS Application?
+A: 
 
