@@ -1,24 +1,37 @@
 
 1.What is a Component? 
-A: Components are the most basic building block of an UI in an Angular application. An Angular application is a tree of Angular components. Angular components are a subset of directives. Unlike directives, components always have a template and only one component can be instantiated per an element in a template.
+A: Components are the most basic building block of an UI in an Angular application. An Angular application is a tree of Angular components. Angular components are a subset of directives. Unlike directives, components always have a template and only one component can be instantiated per an element in a template. A component controls a patch of screen called a view.
 
-A component is made up of three parts:
-template: view and html
-class: code typescript data and methods
+A Component consists of the following −
+
+Template − This is used to render the view for the application. This contains the HTML that needs to be rendered in the application. This part also includes the binding and directives.
+
+Class − This is like a class defined in any language such as C. This contains properties and methods. This has the code which is used to support the view. It is defined in TypeScript.
+
+Metadata − This has the extra data defined for the Angular class. It is defined with a decorator.
 
 
 2.Where and how are the Controllers and Models defined?
-A: 
+A: Angular applications are controlled by controllers.
+
+Model − It is the lowest level of the pattern responsible for maintaining data. It is responsible for managing data, this includes all creation, retrieval, update and delete of data. It responds to the request from view and to the instructions from controller to update itself. The model contains the business end of your application. For simple CRUD (Create Read Update Delete) applications, the model is usually a simple data model. For more complex applications, the model will naturally reflect that increase in complexity.
+
+Controller − It is a software Code that controls the interactions between the Model and View. The controller responds to user input and performs interactions on the data model objects. The controller receives input, validates it, and then performs business operations that modify the state of the data model.
 
 3.What is a View and how is it defined?
-A: 
+A: The View is a presentation of data in a particular format, triggered by the controller's decision to present the data. They are script-based template systems such as JSP, ASP, PHP and very easy to integrate with AJAX technology. It is responsible for displaying all or a portion of the data to the user.
 
 4.What is used to Bootstrap the application?
-A: 
+A: Bootstrapping is an essential process in Angular, it is where the application is loaded when Angular comes to life. An NgModule describes how the application parts fit together. Every application has at least one Angular module, the root module that is used bootstrap to launch the application. By convention, it is usually called AppModule. The bootstrap process loads main.ts which is the main entry point of the application. The AppModule operates as the root module of our application. The module is configured to use AppComponent as the component to bootstrap, and will be rendered on any app-root HTML element encountered.
 
 5.What is the use of System Import?
-A: 
+A: We need the System.import to bootstrap and run the application. It cannot run without it, and if it does, we might have a cashed version in the browser. System.import is the entry point. The fact that it tries to resolve app module from /app path and loads html.
 
 6.What are the Dependency Libraries/Bundles needed for an AngularJS Application?
-A: 
+A: The packages listed in the dependencies section of package.json are essential to running applications. The dependencies section of package.json contains:
 
+Angular packages: Angular core and optional modules; their package names begin @angular/.
+
+Support packages: 3rd party libraries that must be present for Angular apps to run.
+
+Polyfill packages: Polyfills plug gaps in a browser's JavaScript implementation.
