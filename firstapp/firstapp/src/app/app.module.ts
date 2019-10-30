@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header.component';
 
 // decorator
 @NgModule({
@@ -12,7 +13,8 @@ import { AppComponent } from './app.component';
 
     // all components will be declared here
     declarations: [
-        AppComponent
+        AppComponent,
+        HeaderComponent
     ],
 
     // only first or main component
