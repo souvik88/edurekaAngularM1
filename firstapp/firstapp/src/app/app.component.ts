@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
     selector: 'app-root',
     template: `<div>
                     <app-header></app-header>
-                    <h1>This is my first angular app</h1>
+                    <app-prod></app-prod>
                 </div>`
 })
 
