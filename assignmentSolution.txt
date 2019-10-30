@@ -6,6 +6,7 @@ A component is made up of three parts:
 template: view and html
 class: code typescript data and methods
 
+
 2.Where and how are the Controllers and Models defined?
 A: 
 
